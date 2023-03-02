@@ -23,7 +23,7 @@ public interface SecureElementDao {
      * Fetch Data
      */
     @Query("SELECT * FROM secureElement")
-    LiveData<List> getAllPasscodes();
+    LiveData<List<SecureElement>> getAllPasscodes();
 
     /**
      * Update Data
