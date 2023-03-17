@@ -13,7 +13,24 @@
         android:theme="@style/Theme.PasswordManager"
         tools:targetApi="31">
         <activity
-            android:name=".LoginActivity"
+            android:name=".ui.home.settings.DeveloperInfoScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.home.settings.ChangePasscodeScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.home.dashboard.AddPreviewScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.home.HomeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.PasswordManager.NoActionBar" />
+        <activity
+            android:name=".ui.authenticate.LockScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.authenticate.LoginScreenActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
